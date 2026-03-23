@@ -12,7 +12,7 @@ class tt_um_whitescreen_tobi extends Module {
     val uio_oe = Output(UInt(8.W)) // IOs: Enable path (active high: 0=input, 1=output)
   })
 
-  val controller = Module(new vga_controller())
+  val controller = Module(new tt_um_vga_controller())
 
 
   val three = RegInit(0.U(3.W))
