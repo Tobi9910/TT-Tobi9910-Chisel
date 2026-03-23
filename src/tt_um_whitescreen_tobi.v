@@ -1,4 +1,4 @@
-module vga_controller(
+module tt_um_vga_controller(
   input   clock,
   input   reset,
   output  io_hsync, // @[\\src\\main\\scala\\Controller.scala 17:14]
