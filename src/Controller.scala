@@ -13,7 +13,7 @@ import chisel3._
 //output x (10 bit
 //output y (10 bit
 
-class vga_controller extends Module {
+class tt_um_vga_controller extends Module {
   val io = IO(new Bundle {
     //val reset = Input(UInt(1.W))
     val video_on = Output(UInt(1.W))
