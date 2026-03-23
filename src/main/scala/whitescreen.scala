@@ -36,6 +36,8 @@ class tt_um_whitescreen_tobi extends Module {
 }
 
 object tt_um_whitescreen_tobi extends App {
-  emitVerilog(new tt_um_whitescreen_tobi())
+  emitVerilog(new tt_um_whitescreen_tobi(), Array("--target-dir", "src"))
 }
+
+
 
